@@ -1,0 +1,359 @@
+body {
+  overflow-x: hidden; /* Hide vertical scrollbar */
+}
+
+#mainMenu .nav-link {
+  color: #6381c2;
+}
+
+#mainMenu .nav-link:hover {
+  background: #6381c2;
+  color: #333;
+  border-radius: 5px;
+}
+#mainMenu .nav-link.active {
+  background: #c19243;
+  color: #333;
+  border-radius: 5px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background: #c19243;
+}
+
+/* -------------- Nations------------- */
+
+/* MONDSTADT */
+.container1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transform: translate(-50% -50%);
+  box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  background: black;
+  cursor: pointer;
+}
+
+.content1 {
+  line-height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  font-family: verdana;
+  text-align: center;
+}
+
+.container1:hover .overlay1 {
+  opacity: 0.5;
+}
+
+.container1:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .content1 h2 {
+    flex-direction: column;
+    height: 25px;
+    padding: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content1 p {
+    flex-direction: column;
+    height: 1px;
+    padding: 1px;
+  }
+}
+
+/* LIYUE */
+.container2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transform: translate(-50% -50%);
+  box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: black;
+  cursor: pointer;
+}
+
+.content2 {
+  line-height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bolder;
+  font-size: small;
+  font-family: verdana;
+  text-align: center;
+}
+
+.container2:hover .overlay2 {
+  opacity: 0.5;
+}
+
+.container2:hover {
+  transform: scale(1.1);
+  transition: 0.9s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .content2 h2 {
+    flex-direction: column;
+    height: 25px;
+    padding: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content2 p {
+    flex-direction: column;
+    height: 1px;
+    padding: 1px;
+  }
+}
+
+/* INAZUMA */
+.container3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transform: translate(-50% -50%);
+  box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: black;
+  cursor: pointer;
+}
+
+.content3 {
+  line-height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bolder;
+  font-size: small;
+  font-family: verdana;
+  text-align: center;
+}
+
+.container3:hover .overlay3 {
+  opacity: 0.5;
+}
+
+.container3:hover {
+  transform: scale(1.1);
+  transition: 0.9s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .content3 h2 {
+    flex-direction: column;
+    height: 25px;
+    padding: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content3 p {
+    flex-direction: column;
+    height: 1px;
+    padding: 1px;
+  }
+}
+
+/* SUMERU */
+.container4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transform: translate(-50% -50%);
+  box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: black;
+  cursor: pointer;
+}
+
+.content4 {
+  line-height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bolder;
+  font-size: small;
+  font-family: verdana;
+  text-align: center;
+}
+
+.container4:hover .overlay4 {
+  opacity: 0.5;
+}
+
+.container4:hover {
+  transform: scale(1.1);
+  transition: 0.9s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .content4 h2 {
+    flex-direction: column;
+    height: 25px;
+    padding: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content4 p {
+    flex-direction: column;
+    height: 1px;
+    padding: 1px;
+  }
+}
+
+/* FONTAINE */
+.container5 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transform: translate(-50% -50%);
+  box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+
+.overlay5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: black;
+  cursor: pointer;
+}
+
+.content5 {
+  line-height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bolder;
+  font-size: small;
+  font-family: verdana;
+  text-align: center;
+}
+
+.container5:hover .overlay5 {
+  opacity: 0.5;
+}
+
+.container5:hover {
+  transform: scale(1.1);
+  transition: 0.9s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .content5 h2 {
+    flex-direction: column;
+    height: 25px;
+    padding: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content5 p {
+    flex-direction: column;
+    height: 1px;
+    padding: 1px;
+  }
+}
+
+/* WEAPON LIST */
+.bg-content10 {
+  background: url(./Images/Showcase5.jpg) no-repeat center center / cover;
+  height: 100vh;
+  position: relative;
+  color: #ffff;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+
+footer a {
+  color: #fff;
+}
+
+.footer .social > * {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.footer a:hover {
+  color: #6381c2;
+}
+
+.footer p {
+  color: #fff;
+}

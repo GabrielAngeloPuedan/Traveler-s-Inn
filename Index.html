@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Traveler's Inn</title>
+  </head>
+  <body id="Entrance">
+    <section>
+      <!-- Navbar -->
+      <nav
+        id="main_menu"
+        class="navbar navbar-expand-md navbar-dark bg-dark fixed-top opacity-0.5"
+      >
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="./Images/Logo.png" alt="Logo" width="50" />Traveler's Inn
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="mainMenu" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+              <li><a href="#Home" class="nav-link">Home</a></li>
+              <li><a href="#Nations" class="nav-link">Nations</a></li>
+              <li><a href="#weapons" class="nav-link">Weapons</a></li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >Crafting</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">Alchemy</a></li>
+                  <li><a href="#" class="dropdown-item">Cooking</a></li>
+                </ul>
+              </li>
+              <li><a href="#about" class="nav-link">Teams</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Hero -->
+    <section
+      id="Home"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-touch="true"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./Images/Showcase1.jpg"
+            alt="Banner1"
+            class="d-block w-100"
+          />
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="./Images/Showcase2.jpg"
+            alt="Banner2"
+            class="d-block w-100"
+          />
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="./Images/showcase3.webp"
+            alt="Banner3"
+            class="d-block w-100"
+          />
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="./Images/Showcase4.jpg"
+            alt="Banner4"
+            class="d-block w-100"
+          />
+        </div>
+        <div class="carousel-item active mt-5">
+          <img
+            src="./Images/Showcase5.jpg"
+            alt="Banner5"
+            class="d-block w-100"
+          />
+        </div>
+        <div class="carousel-item active mt-5">
+          <img src="./Images/Teyvat.jpg" alt="Banner6" class="d-block w-100" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </section>
+
+    <!-- ####################### Nations ###################### -->
+    <section id="Nations">
+      <!-- MONDSTADT -->
+      <div class="container1">
+        <img
+          src="./Images/Nation1.jpg"
+          class="img-fluid d-block w-100"
+          alt="Nation"
+        />
+        <a href="./Characters/Mondstadt.html">
+          <div class="overlay1">
+            <div class="content1">
+              <h2>Mondstadt</h2>
+              <p>Wind, Freedom, Music</p>
+              <p>Click for characters and builds</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- LIYUE -->
+      <div class="container2">
+        <img
+          src="./Images/Liyue.jpg"
+          class="img-fluid d-block w-100"
+          alt="Liyue"
+        />
+        <a href="./Characters/Liyue_Characters.html">
+          <div class="overlay2">
+            <div class="content2">
+              <h2>Liyue</h2>
+              <p>Mountainous, Cultural, Geopolitical</p>
+              <p>Click for characters and builds</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- INAZUMA -->
+      <div class="container3">
+        <img
+          src="./Images/Inazuma.jpg"
+          class="img-fluid d-block w-100"
+          alt="Liyue"
+        />
+        <a href="./Characters/Inazuma_characters.html">
+          <div class="overlay3">
+            <div class="content3">
+              <h2>Inazuma</h2>
+              <p>Electro Archon's Realm</p>
+              <p>Click for characters and builds</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- SUMERU -->
+      <div class="container4">
+        <img
+          src="./Images/Sumeru.jpg"
+          class="img-fluid d-block w-100"
+          alt="Liyue"
+        />
+        <a href="./Characters/Sumeru_Characters.html">
+          <div class="overlay4">
+            <div class="content4">
+              <h2>Sumeru</h2>
+              <p>Land of Wisdom</p>
+              <p>Click for characters and builds</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- FONTAINE -->
+      <div class="container5">
+        <img
+          src="./Images/Fontaine.png"
+          class="img-fluid d-block w-100"
+          alt="Liyue"
+        />
+        <a href="./Characters/Fontaine_Characters.html">
+          <div class="overlay5">
+            <div class="content5">
+              <h2>Fontaine</h2>
+              <p>Majestic, Ethereal, Enchanting.</p>
+              <p>Click for characters and builds</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div></div>
+    </section>
+
+    <!-- ################ Weapons ###################### -->
+    <section id="weapons" class="bg-content10">
+      <div class="container">
+        <div class="container-fluid my-5 w-100 mt-5">
+          <h1 class="text-center fw-bold display-1 mb-5">
+            Choose one of the category
+          </h1>
+          <div class="row">
+            <div class="col-md-12 m-auto">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="card border-0 shadow">
+                    <img
+                      src="/MP_1/Weapons/Bow.png"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center">
+                        <h4>Bow</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 shadow">
+                    <img
+                      src="/MP_1/Weapons/Catalyst1.png"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center">
+                        <h4>Catalyst</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 shadow">
+                    <img
+                      src="/MP_1/Weapons/Claymore.png"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center">
+                        <h4>Claymore</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 shadow">
+                    <img
+                      src="/MP_1/Weapons/Polearm.png"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center">
+                        <h4>Polearm</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 shadow">
+                    <img
+                      src="/MP_1/Weapons/Sword.png"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <div class="card-title text-center">
+                        <h4>Sword</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark mt-">
+      <div class="social">
+        <a href="https://discord.com/invite/genshinimpact"
+          ><i class="fab fa-discord fa-2x"></i
+        ></a>
+        <a
+          href="https://twitter.com/GenshinImpact?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          ><i class="fab fa-twitter fa-2x"></i
+        ></a>
+        <a href="https://www.youtube.com/@GenshinImpact"
+          ><i class="fab fa-youtube fa-2x"></i
+        ></a>
+        <a href="https://www.reddit.com/r/Genshin_Impact/"
+          ><i class="fab fa-reddit fa-2x"></i
+        ></a>
+        <a href="https://www.twitch.tv/genshinimpactofficial"
+          ><i class="fab fa-twitch fa-2x"></i
+        ></a>
+      </div>
+      <p>Copyright &copy; 2023 | Traveler's Inn</p>
+    </footer>
+
+    <!-- Script -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

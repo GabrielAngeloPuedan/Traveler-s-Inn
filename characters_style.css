@@ -1,0 +1,44 @@
+.bg-content1 {
+  background: url(./Images/Showcase2.jpg) no-repeat center center / cover;
+  height: 100vh;
+  position: relative;
+  color: #ffff;
+}
+.bg-content2 {
+  background: url(./Images/Showcase4.jpg) no-repeat center center / cover;
+  height: 100vh;
+  position: relative;
+  color: #ffff;
+}
+.bg-content3 {
+  background: url(./Images/Showcase1.jpg) no-repeat center center / cover;
+  height: 100vh;
+  position: relative;
+  color: #ffff;
+}
+.bg-content4 {
+  background: url(./Images/Showcase5.jpg) no-repeat center center / cover;
+  height: 100vh;
+  position: relative;
+  color: #ffff;
+}
+.bg-content5 {
+  background: url(./Images/peakpx.jpg) no-repeat center center / cover;
+  height: 100vh;
+  position: relative;
+  color: #ffff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.characters-mondstadt img {
+  background: #ffff;
+}
+
+body {
+  background: hsl(0, 0, 94%);
+}

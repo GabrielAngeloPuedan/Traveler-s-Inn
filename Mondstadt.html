@@ -91,11 +91,8 @@
     <!-- Character section -->
     <section class="bg-content1">
       <div class="container">
-        <div class="characters-mondstadt">
-          <div class="container-fluid my-5 w-50">
-            <h1 class="text-center fw-bold display-1 mb-5">
-              Owl <span class="text-danger">Carousel</span>
-            </h1>
+        <div class="characters-mondstadt py-5 m-5">
+          <div class="container-fluid my-5 w-100">
             <div class="row">
               <div class="col-12 m-auto">
                 <div class="owl-carousel owl-theme">
@@ -114,7 +111,7 @@
                             data-toggle="popover_jean"
                             title="Artifact set and Weapon"
                           >
-                            Jean artifact and weapon
+                            Click Here
                           </button>
                         </div>
                       </div>
@@ -135,7 +132,7 @@
                             data-toggle="popover_Albedo"
                             title="Artifact set and Weapon"
                           >
-                            Albedo artifact and weapon
+                            Click Here
                           </button>
                         </div>
                       </div>
@@ -156,7 +153,7 @@
                             data-toggle="popover_Diluc"
                             title="Artifact set and Weapon"
                           >
-                            Diluc artifact and weapon
+                            Click Here
                           </button>
                         </div>
                       </div>
@@ -177,7 +174,7 @@
                             data-toggle="popover_Venti"
                             title="Artifact set and Weapon"
                           >
-                            Venti artifact and weapon
+                            Click Here
                           </button>
                         </div>
                       </div>
@@ -271,38 +268,38 @@
     <script>
       $(document).ready(function () {
         $('[data-toggle="popover_jean"]').popover({
-          placement: "bottom",
+          placement: "Top",
           trigger: "hover",
           html: true,
           content:
-            '<div class="media"><img src="./Characters/viridescent venerer.jpg" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading"> 4 pcs set of Viridescent Venerer</h5></div></div>   <div class="media"><img src="/Characters/Primordial jade cutter.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">Primordial Jade Cutter</h5></div></div>',
+            '<div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/viridescent venerer.jpg" class="mr-3" alt="Sample Image">X4 pcs set of Viridescent Venerer</h6></div></div>   <div class="media"><div class="media-body"><h6 class="media-heading"><img src="/Characters/Primordial jade cutter.png" class="mr-3" alt="Sample Image">Primordial Jade Cutter</h6></div></div>   <ul class="list-group"><li class="list-group-item">Jean Best Stats</li><li class="list-group-item"><img src="./IconOfArtifacts/Icon_Sands_of_Eon.jpg" alt="...">Sands:ATK%/Energy Recharge</li><li class="list-group-item"><img src="./IconOfArtifacts/Icon_Goblet_of_Eonothem.jpg" alt="...">Goblet:Anemo DMG</li><li class="list-group-item"><img src="./IconOfArtifacts/Icon_Circlet_of_Logos.jpg" alt="...">Circlet:CRIT Rate/CRIT DMG</li><li class="list-group-item">Substats:CRIT Rate/CRIT DMG>ATK%>Energy Recharge</li></ul>',
         });
       });
       $(document).ready(function () {
         $('[data-toggle="popover_Albedo"]').popover({
-          placement: "bottom",
+          placement: "top",
           trigger: "hover",
           html: true,
           content:
-            '<div class="media"><img src="./Characters/ArtifactSet/husk_of_opulent_dreams.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading"> 4 pcs set of husk of opulent dreams</h5></div></div>   <div class="media"><img src="./Characters/Weapons/Cinnabar_Spindle.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">Cinnabar Spindle</h5></div></div>',
+            '<div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/ArtifactSet/husk_of_opulent_dreams.png" class="mr-3" alt="Sample Image"> X4 set of husk of opulent dreams</h6></div></div>   <div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/Weapons/Cinnabar_Spindle.png" class="mr-3" alt="Sample Image">Cinnabar Spindle</h6></div></div>',
         });
       });
       $(document).ready(function () {
         $('[data-toggle="popover_Diluc"]').popover({
-          placement: "bottom",
+          placement: "top",
           trigger: "hover",
           html: true,
           content:
-            '<div class="media"><img src="./Characters/ArtifactSet/crimson_witch_of_flames.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading"> 4 pcs set of Crimson witch of flames</h5></div></div>  <div class="media"><img src="./Characters/Weapons/Wolfs_Gravestone.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">Wolfs Gravestone</h5></div></div>',
+            '<div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/ArtifactSet/crimson_witch_of_flames.png" class="mr-3" alt="Sample Image"> X4 set of Crimson witch of flames</h6></div></div>  <div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/Weapons/Wolfs_Gravestone.png" class="mr-3" alt="Sample Image">Wolfs Gravestone</h6></div></div>',
         });
       });
       $(document).ready(function () {
         $('[data-toggle="popover_Venti"]').popover({
-          placement: "bottom",
+          placement: "top",
           trigger: "hover",
           html: true,
           content:
-            '<div class="media"><img src="./Characters/viridescent venerer.jpg" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading"> 4 pcs set of Viridescent Venerer</h5></div></div>  <div class="media"><img src="./Characters/Weapons/Elegy_for_the_End.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">Elegy for the End</h5></div></div>',
+            '<div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/viridescent venerer.jpg" class="mr-3" alt="Sample Image"> X4 set of Viridescent Venerer</h6></div></div>  <div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/Weapons/Elegy_for_the_End.png" class="mr-3" alt="Sample Image">Elegy for the End</h6></div></div>',
         });
       });
     </script>

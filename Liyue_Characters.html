@@ -91,11 +91,8 @@
     <!-- Character section -->
     <section class="bg-content2">
       <div class="container">
-        <div class="characters-mondstadt">
-          <div class="container-fluid my-5 w-50">
-            <h1 class="text-center fw-bold display-1 mb-5">
-              Owl <span class="text-danger">Carousel</span>
-            </h1>
+        <div class="characters-mondstadt py-5 m-5">
+          <div class="container-fluid my-5 w-100">
             <div class="row">
               <div class="col-12 m-auto">
                 <div class="owl-carousel owl-theme">
@@ -114,7 +111,7 @@
                             data-toggle="popover_Ganyu"
                             title="Artifact set and Weapon"
                           >
-                            Ganyu artifact and weapon
+                            Click Here
                           </button>
                         </div>
                       </div>
@@ -135,7 +132,7 @@
                             data-toggle="popover_Ningguang"
                             title="Artifact set and Weapon"
                           >
-                            Ningguang artifact and weapon
+                            Click Here
                           </button>
                         </div>
                       </div>
@@ -156,7 +153,7 @@
                             data-toggle="popover_Xiao"
                             title="Artifact set and Weapon"
                           >
-                            Xiao artifact and weapon
+                            Click Here
                           </button>
                         </div>
                       </div>
@@ -177,7 +174,7 @@
                             data-toggle="popover_Zhongli"
                             title="Artifact set and Weapon"
                           >
-                            Zhongli artifact and weapon
+                            Click Here
                           </button>
                         </div>
                       </div>
@@ -271,38 +268,38 @@
     <script>
       $(document).ready(function () {
         $('[data-toggle="popover_Ganyu"]').popover({
-          placement: "bottom",
+          placement: "top",
           trigger: "hover",
           html: true,
           content:
-            '<div class="media"><img src="./Characters/ArtifactSet/Liyue_artifacts/shimenawas_reminiscence.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading"> 4 pcs set of Shimenawas reminiscence</h5></div></div>   <div class="media"><img src="./Characters/Weapons/Liyue_weapons/Amos_Bow.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">Amos Bow</h5></div></div>',
+            '<div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/ArtifactSet/Liyue_artifacts/shimenawas_reminiscence.png" class="mr-3" alt="Sample Image"> X4 set of Shimenawas reminiscence</h6></div></div>   <div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/Weapons/Liyue_weapons/Amos_Bow.png" class="mr-3" alt="Sample Image">Amos Bow</h6></div></div>  <ul class="list-group"><li class="list-group-item">Ganyu Best Stats</li><li class="list-group-item"><img src="./IconOfArtifacts/Icon_Sands_of_Eon.jpg" alt="...">Sands:ATK%</li><li class="list-group-item"><img src="./IconOfArtifacts/Icon_Goblet_of_Eonothem.jpg" alt="...">Goblet:Cryo DMG</li><li class="list-group-item"><img src="./IconOfArtifacts/Icon_Circlet_of_Logos.jpg" alt="...">Circlet:CRIT DMG</li><li class="list-group-item">Substats:CRIT Rate/CRIT DMG>Elemental Master>ATK%</li></ul>',
         });
       });
       $(document).ready(function () {
         $('[data-toggle="popover_Ningguang"]').popover({
-          placement: "bottom",
+          placement: "top",
           trigger: "hover",
           html: true,
           content:
-            '<div class="media"><img src="./Characters/ArtifactSet/Liyue_artifacts/archaic_petra.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading"> 4 pcs set of Archaic petra</h5></div></div>   <div class="media"><img src="./Characters/Weapons/Liyue_weapons/Lost_Prayer_to_the_Sacred_Winds.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">Lost prayer to the sacred winds</h5></div></div>',
+            '<div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/ArtifactSet/Liyue_artifacts/archaic_petra.png" class="mr-3" alt="Sample Image"> X4 set of Archaic petra</h6></div></div>   <div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/Weapons/Liyue_weapons/Lost_Prayer_to_the_Sacred_Winds.png" class="mr-3" alt="Sample Image">Lost prayer to the sacred winds</h6></div></div>',
         });
       });
       $(document).ready(function () {
         $('[data-toggle="popover_Xiao"]').popover({
-          placement: "bottom",
+          placement: "top",
           trigger: "hover",
           html: true,
           content:
-            '<div class="media"><img src="./Characters/ArtifactSet/Liyue_artifacts/vermillion_hereafter.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading"> 4 pcs set of Vermillion hereafter</h5></div></div>  <div class="media"><img src="./Characters/Weapons/Liyue_weapons/Primordial_Jade_Winged-Spear.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">Primordial Jade Winged Spear</h5></div></div>',
+            '<div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/ArtifactSet/Liyue_artifacts/vermillion_hereafter.png" class="mr-3" alt="Sample Image"> X4 set of Vermillion hereafter</h6></div></div>  <div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/Weapons/Liyue_weapons/Primordial_Jade_Winged-Spear.png" class="mr-3" alt="Sample Image">Primordial Jade Winged Spear</h6></div></div>',
         });
       });
       $(document).ready(function () {
         $('[data-toggle="popover_Zhongli"]').popover({
-          placement: "bottom",
+          placement: "top",
           trigger: "hover",
           html: true,
           content:
-            '<div class="media"><img src="./Characters/ArtifactSet/Liyue_artifacts/tenacity_of_the_millelith.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading"> 4 pcs set of Tenacity of the Millelith</h5></div></div>  <div class="media"><img src="./Characters/Weapons/Liyue_weapons/Black_Tassel.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">Black Tassel</h5></div></div>',
+            '<div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/ArtifactSet/Liyue_artifacts/tenacity_of_the_millelith.png" class="mr-3" alt="Sample Image"> X4 set of Tenacity of the Millelith</h6></div></div>  <div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/Weapons/Liyue_weapons/Black_Tassel.png" class="mr-3" alt="Sample Image">Black Tassel</h6></div></div>',
         });
       });
     </script>

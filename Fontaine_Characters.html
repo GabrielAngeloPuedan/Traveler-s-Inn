@@ -91,11 +91,8 @@
     <!-- Character section -->
     <section class="bg-content5">
       <div class="container">
-        <div class="characters-mondstadt">
-          <div class="container-fluid my-5 w-50">
-            <h1 class="text-center fw-bold display-1 mb-5">
-              Owl <span class="text-danger">Carousel</span>
-            </h1>
+        <div class="characters-mondstadt py-5 m-5">
+          <div class="container-fluid my-5 w-100">
             <div class="row">
               <div class="col-12 m-auto">
                 <div class="owl-carousel owl-theme">
@@ -114,7 +111,7 @@
                             data-toggle="popover_Freminet"
                             title="Artifact set and Weapon"
                           >
-                            Freminet artifact and weapon
+                            Click Here
                           </button>
                         </div>
                       </div>
@@ -136,7 +133,7 @@
                             data-toggle="popover_Lynette"
                             title="Artifact set and Weapon"
                           >
-                            Lynette artifact and weapon
+                            Click Here
                           </button>
                         </div>
                       </div>
@@ -157,7 +154,7 @@
                             data-toggle="popover_Lyney"
                             title="Artifact set and Weapon"
                           >
-                            Lyney artifact and weapon
+                            Click Here
                           </button>
                         </div>
                       </div>
@@ -251,29 +248,29 @@
     <script>
       $(document).ready(function () {
         $('[data-toggle="popover_Freminet"]').popover({
-          placement: "bottom",
+          placement: "top",
           trigger: "hover",
           html: true,
           content:
-            '<div class="media"><img src="./Characters/ArtifactSet/Fontaine_artifacts/blizzard_strayer.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading"> 4 pcs set of Blizzard Strayer</h5></div></div>   <div class="media"><img src="./Characters/Weapons/Fontaine_weapons/Serpent_Spine.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">Serpent Spine</h5></div></div>',
+            '<div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/ArtifactSet/Fontaine_artifacts/blizzard_strayer.png" class="mr-3" alt="Sample Image"> X4 set of Blizzard Strayer</h6></div></div>   <div class="media"><img src="./Characters/Weapons/Fontaine_weapons/Serpent_Spine.png" class="mr-3" alt="Sample Image"><div class="media-body"><h6 class="media-heading">Serpent Spine</h6></div></div>',
         });
       });
       $(document).ready(function () {
         $('[data-toggle="popover_Lynette"]').popover({
-          placement: "bottom",
+          placement: "top",
           trigger: "hover",
           html: true,
           content:
-            '<div class="media"><img src="./Characters/ArtifactSet/Fontaine_artifacts/viridescent_venerer.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading"> 4 pcs set of Viridescent Venerer</h5></div></div>   <div class="media"><img src="./Characters/Weapons/Fontaine_weapons/Sacrificial_Sword.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">Sacrificial Sword</h5></div></div>',
+            '<div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/ArtifactSet/Fontaine_artifacts/viridescent_venerer.png" class="mr-3" alt="Sample Image"> X4 set of Viridescent Venerer</h6></div></div>   <div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/Weapons/Fontaine_weapons/Sacrificial_Sword.png" class="mr-3" alt="Sample Image">Sacrificial Sword</h6></div></div>',
         });
       });
       $(document).ready(function () {
         $('[data-toggle="popover_Lyney"]').popover({
-          placement: "bottom",
+          placement: "top",
           trigger: "hover",
           html: true,
           content:
-            '<div class="media"><img src="./Characters/ArtifactSet/Fontaine_artifacts/marechaussee_hunter.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading"> 4 pcs set of Marechausee hunter</h5></div></div>  <div class="media"><img src="./Characters/Weapons/Fontaine_weapons/The_First_Great_Magic.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">The First great magic</h5></div></div>',
+            '<div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/ArtifactSet/Fontaine_artifacts/marechaussee_hunter.png" class="mr-3" alt="Sample Image"> X4 set of Marechausee hunter</h6></div></div>  <div class="media"><div class="media-body"><h6 class="media-heading"><img src="./Characters/Weapons/Fontaine_weapons/The_First_Great_Magic.png" class="mr-3" alt="Sample Image">The First great magic</h6></div></div>   <ul class="list-group"><li class="list-group-item">Lyney Best Stats</li><li class="list-group-item"><img src="./IconOfArtifacts/Icon_Sands_of_Eon.jpg" alt="...">Sands:ATK%</li><li class="list-group-item"><img src="./IconOfArtifacts/Icon_Goblet_of_Eonothem.jpg" alt="...">Goblet:Pyro DMG</li><li class="list-group-item"><img src="./IconOfArtifacts/Icon_Circlet_of_Logos.jpg" alt="...">Circlet:CRIT Rate/CRIT DMG</li><li class="list-group-item">Substats:CRIT Rate/CRIT DMG>ATK%>Energy Recharge</li></ul>',
         });
       });
     </script>

@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
@@ -246,19 +260,26 @@
     <!-- ################ Weapons ###################### -->
     <section id="weapons" class="bg-content10">
       <div class="container">
-        <div class="container-fluid my-5 w-100 mt-5">
-          <h1 class="text-center fw-bold display-1 mb-5">
-            Choose one of the category
-          </h1>
+        <div class="container-fluid p-5 w-100">
+          <h1 class="text-center">Choose one Weapon from the category</h1>
           <div class="row">
             <div class="col-md-12 m-auto">
               <div class="owl-carousel owl-theme">
                 <div class="item">
                   <div class="card border-0 shadow">
-                    <img src="./Weapons/Bow.png" alt="" class="card-img-top" />
+                    <img
+                      src="./Images/Bow_Card.jpg"
+                      alt=""
+                      class="card-img-top"
+                    />
                     <div class="card-body">
                       <div class="card-title text-center">
-                        <h4>Bow</h4>
+                        <a
+                          class="btn btn-dark"
+                          href="./Bow_weapons.html"
+                          role="button"
+                          >Click Here for Bows weapons</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -266,13 +287,18 @@
                 <div class="item">
                   <div class="card border-0 shadow">
                     <img
-                      src="./Weapons/Catalyst1.png"
+                      src="./Images/Catalyst_card.jpg"
                       alt=""
                       class="card-img-top"
                     />
                     <div class="card-body">
                       <div class="card-title text-center">
-                        <h4>Catalyst</h4>
+                        <a
+                          class="btn btn-dark"
+                          href="./Catalyst_weapons.html"
+                          role="button"
+                          >Click Here for Catalysts</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -280,13 +306,18 @@
                 <div class="item">
                   <div class="card border-0 shadow">
                     <img
-                      src="./Weapons/Claymore.png"
+                      src="./Images/Claymore_card.jpg"
                       alt=""
                       class="card-img-top"
                     />
                     <div class="card-body">
                       <div class="card-title text-center">
-                        <h4>Claymore</h4>
+                        <a
+                          class="btn btn-dark"
+                          href="./Claymore_weapons.html"
+                          role="button"
+                          >Click Here for Clyamores</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -294,13 +325,18 @@
                 <div class="item">
                   <div class="card border-0 shadow">
                     <img
-                      src="./Weapons/Polearm.png"
+                      src="./Images/Polearm_card.jpg"
                       alt=""
                       class="card-img-top"
                     />
                     <div class="card-body">
                       <div class="card-title text-center">
-                        <h4>Polearm</h4>
+                        <a
+                          class="btn btn-dark"
+                          href="./Polearm_weapons.html"
+                          role="button"
+                          >Click Here for Polearms</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -308,13 +344,18 @@
                 <div class="item">
                   <div class="card border-0 shadow">
                     <img
-                      src="./Weapons/Sword.png"
+                      src="./Images/Sword_card.jpg"
                       alt=""
                       class="card-img-top"
                     />
                     <div class="card-body">
                       <div class="card-title text-center">
-                        <h4>Sword</h4>
+                        <a
+                          class="btn btn-dark"
+                          href="./Sword_weapons.html"
+                          role="button"
+                          >Click Here for Sword</a
+                        >
                       </div>
                     </div>
                   </div>
@@ -350,13 +391,24 @@
     </footer>
 
     <!-- Script -->
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script

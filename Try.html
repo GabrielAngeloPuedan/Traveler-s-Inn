@@ -1,72 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Example of Bootstrap Popover with Images</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genshin Impact Weapons</title>
+    <!-- Bootstrap CSS -->
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     />
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $('[data-toggle="popover"]').popover({
-          placement: "top",
-          trigger: "hover",
-          html: true,
-          content:
-            '<div class="media"><img src="/MP_1/Characters/Husk.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">Jhon Carter</h5><p>Excellent Bootstrap popover! I really love it.</p></div></div>',
-        });
-      });
-    </script>
-    <script>
-      $(document).ready(function () {
-        $('[data-toggle="popover1"]').popover({
-          placement: "top",
-          trigger: "hover",
-          html: true,
-          content:
-            '<div class="media"><img src="/MP_1/Characters/gilded_dreams.png" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">Jhon Carter</h5><p>Excellent Bootstrap popover! I really love it.</p></div></div>',
-        });
-      });
-    </script>
-    <style>
-      .bs-example {
-        margin: 200px 150px 0;
-      }
-      .bs-example button {
-        margin: 10px;
-      }
-    </style>
   </head>
   <body>
-    <div class="bs-example">
-      <button type="button" class="btn btn-primary" data-toggle="popover1">
-        Popover without Title
-      </button>
-      <button
-        type="button"
-        class="btn btn-primary"
-        data-toggle="popover"
-        title="User Info"
-      >
-        Popover with Title
-      </button>
+    <div class="container">
+      <div class="container mt-5">
+        <h1 class="text-center">Genshin Impact Weapons</h1>
+        <div class="row">
+          <!-- Weapon Card 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="weapon1.jpg" class="card-img-top" alt="Weapon 1" />
+              <div class="card-body">
+                <h5 class="card-title">Sword of Descension</h5>
+                <p class="card-text">
+                  A ceremonial sword that has become petrified over time. The
+                  power of the world lies within it, waiting to be awakened.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Weapon Card 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="weapon2.jpg" class="card-img-top" alt="Weapon 2" />
+              <div class="card-body">
+                <h5 class="card-title">Wit's End</h5>
+                <p class="card-text">
+                  A sharp, cold stare that seems to pierce through all defenses.
+                  The mightiest of warriors cannot defend against it.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Weapon Card 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="weapon3.jpg" class="card-img-top" alt="Weapon 3" />
+              <div class="card-body">
+                <h5 class="card-title">Favonius Lance</h5>
+                <p class="card-text">
+                  A polearm made in the style of the Knights of Favonius. Its
+                  shaft is straight and narrow, yet it is deceptively
+                  lightweight.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="bs-example">
-      <button type="button" class="btn btn-primary" data-toggle="popover">
-        Popover without Title
-      </button>
-      <button
-        type="button"
-        class="btn btn-primary"
-        data-toggle="popover1"
-        title="User Info"
-      >
-        Popover with Title
-      </button>
-    </div>
+
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   </body>
 </html>
+
+<button
+  type="button"
+  class="btn btn-secondary"
+  data-bs-toggle="tooltip"
+  data-bs-placement="top"
+  title="Tooltip on top"
+>
+  Tooltip on top
+</button>

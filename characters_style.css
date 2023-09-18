@@ -42,3 +42,8 @@
 body {
   background: hsl(0, 0, 94%);
 }
+
+.Inazuman_Characters {
+  height: 300px;
+  width: 100%;
+}

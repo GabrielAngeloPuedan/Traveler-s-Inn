@@ -9,7 +9,21 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: tra;
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.64);
+  overflow-x: hidden;
+  padding-top: 20px;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -70,4 +84,45 @@ body {
   .sidenav a {
     font-size: 18px;
   }
+}
+
+.sidenav-2 {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.64);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav-2 a {
+  padding: 6px 6px 6px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f4f4f4;
+  font-weight: bolder;
+  display: block;
+}
+
+.navbar-1 a:hover {
+  color: black;
+  background: #6381c2;
+}
+
+.sidenav-2 {
+  text-align: center;
+  color: black;
+}
+
+.sidenav-2 a {
+  color: black;
 }

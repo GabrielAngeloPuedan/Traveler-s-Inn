@@ -1,7 +1,7 @@
 .bg-content1 {
   background: url(./Images/Showcase2.jpg) no-repeat center center / cover;
   height: 100vh;
-  position: relative;
+  position: static;
   color: #ffff;
 }
 .bg-content2 {

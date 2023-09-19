@@ -14,6 +14,7 @@ body {
   padding-top: 20px;
 }
 
+/* MONDSTADT */
 .sidenav a {
   padding: 6px 6px 6px 10px;
   text-decoration: none;
@@ -24,6 +25,36 @@ body {
 }
 
 .sidenav a:hover {
+  color: black;
+  background: #6381c2;
+}
+
+/* Liyue */
+.navbar-1 a {
+  padding: 6px 6px 6px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f4f4f4;
+  font-weight: bolder;
+  display: block;
+}
+
+.navbar-1 a:hover {
+  color: black;
+  background: #6381c2;
+}
+
+/* Inazuma */
+.navbar-2 a {
+  padding: 6px 6px 6px 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f4f4f4;
+  font-weight: bolder;
+  display: block;
+}
+
+.navbar-2 a:hover {
   color: black;
   background: #6381c2;
 }

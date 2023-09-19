@@ -3,11 +3,161 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./characters_style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./Weapons.css" />
     <title>Claymore Weapons</title>
   </head>
   <body>
-    <div>
-      <h1>Claymore weapons</h1>
-    </div>
+    <!-- Navbar -->
+    <section>
+      <nav
+        id="main_menu"
+        class="navbar navbar-expand-md navbar-dark bg-dark fixed-top opacity-0.5"
+      >
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="./Images/Logo.png" alt="Logo" width="50" />Traveler's Inn
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="mainMenu" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+              <li><a href="./Index.html" class="nav-link">Home</a></li>
+              <li>
+                <a href="./Index.html#Nations" class="nav-link">Nations</a>
+              </li>
+              <li>
+                <a href="./Index.html#weapons" class="nav-link">Weapons</a>
+              </li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >Crafting</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">Alchemy</a></li>
+                  <li><a href="#" class="dropdown-item">Cooking</a></li>
+                </ul>
+              </li>
+              <li><a href="#about" class="nav-link">Teams</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Catalyst Weapons -->
+    <section>
+      <div class="Claymore-weapons">
+        <div class="container">
+          <div
+            class="table-responsive row row-cols-3 row-cols-md-3 g-4 m-5 py-5 w-60"
+          >
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col" class="text-center">Weapon List</th>
+                  <th scope="col" class="text-center">Name</th>
+                  <th scope="col" class="text-center">Rarity</th>
+                  <th scope="col" class="text-center">Where to get</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class="text-center">
+                    <img
+                      src="./Weapons_Pictures_and_Bg/Claymore_weapons/Blackcliff_Slasher.png"
+                      alt=""
+                    />
+                  </th>
+                  <td class="py-4 text-center">Blackcliff Slasher</td>
+                  <td class="py-4 text-center">4 Star</td>
+                  <td class="py-4 text-center">Wish</td>
+                </tr>
+                  <th scope="row" class="text-center">
+                    <img
+                      src="./Weapons_Pictures_and_Bg/Claymore_weapons/The_Unforged.png"
+                      alt=""
+                    />
+                  </th>
+                  <td class="py-4 text-center">The Unforged</td>
+                  <td class="py-4 text-center">5 star</td>
+                  <td class="py-4 text-center">Wish /  Limited Time Banner</td>
+                </tr>
+                  <th scope="row" class="text-center">
+                    <img
+                      src="./Weapons_Pictures_and_Bg/Claymore_weapons/White_Iron_Greatsword.png"
+                      alt=""
+                    />
+                  </th>
+                  <td class="py-4 text-center">White Iron Greatsword</td>
+                  <td class="py-4 text-center">3 Star</td>
+                  <td class="py-4 text-center">Wish</td>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark mt-">
+      <div class="social">
+        <a href="https://discord.com/invite/genshinimpact"
+          ><i class="fab fa-discord fa-2x"></i
+        ></a>
+        <a
+          href="https://twitter.com/GenshinImpact?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          ><i class="fab fa-twitter fa-2x"></i
+        ></a>
+        <a href="https://www.youtube.com/@GenshinImpact"
+          ><i class="fab fa-youtube fa-2x"></i
+        ></a>
+        <a href="https://www.reddit.com/r/Genshin_Impact/"
+          ><i class="fab fa-reddit fa-2x"></i
+        ></a>
+        <a href="https://www.twitch.tv/genshinimpactofficial"
+          ><i class="fab fa-twitch fa-2x"></i
+        ></a>
+      </div>
+      <p>Copyright &copy; 2023 | Traveler's Inn</p>
+    </footer>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
+
